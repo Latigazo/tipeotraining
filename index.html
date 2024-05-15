@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Tipeo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="startScreen">
+        <h1>Introduce tu nombre</h1>
+        <input type="text" id="playerName" placeholder="Nombre">
+        <button onclick="startGame()">Comenzar Juego</button>
+    </div>
+    <div id="gameScreen" style="display: none;">
+        <div class="header">
+            <div class="scores">
+                <div class="score">Puntaje: <span id="scoreDisplay">0</span></div>
+                
+            </div>
+            <div class="time-container">Hora: <span id="timeDisplay"></span></div>
+        </div>
+        <div class="console">
+            <span id="wordToType"></span>
+            <input type="text" id="userInput" autocomplete="off">
+        </div>
+        <div id="topScores">
+            <h2>Top Puntajes</h2>
+            <ul id="scoreList"></ul>
+        </div>
+    </div>
+    <script src="userInterface.js"></script>
+    <script src="settings.js"></script>
+    <script src="gameLogic.js"></script>
+    <script src="sounds.js" defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
