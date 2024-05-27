@@ -1,4 +1,5 @@
-                                                                                     -Tipeo Training-
+-> Tipeo Training <-
+
 Descripción
 Typing Game es un juego interactivo diseñado para mejorar tus habilidades de tipeo. En este juego, los jugadores deben escribir rápidamente las palabras que aparecen en la pantalla antes de que se acabe el tiempo. El objetivo es acumular la mayor cantidad de puntos posible. ¡A medida que alcanzas ciertos hitos, se reproducen sonidos para hacer el juego más emocionante!
 
